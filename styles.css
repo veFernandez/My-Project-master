@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(43, 43, 43);
+}
+
+/* Text CSS */
+
+h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  font-size: 70px;
+}
+p {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 270px;
+  font-size: 20px;
+}
+
+/* Image properties (profile picture) */
+
+img {
+  border-radius: 50%;
+  position: relative;
+  top: 330px;
+  border: 5px solid white;
+  height: 145px;
+  width: 135px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+b {
+  color: lightsalmon;
+}
+
+/* Navigation bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  background-color: rgb(43, 43, 43);
+
+  /* The positioning of the navigation bar */
+  position: fixed;
+  top: 50px;
+  align-items: center;
+  left: 0;
+  top: 10;
+  width: 95%;
+}
+
+li {
+  float: center;
+}
+
+/* Position of the TEXT itself */
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 50px; /* The gap between the text */
+  text-decoration: none; /* This removes the underline */
+}
